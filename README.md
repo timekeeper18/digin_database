@@ -7,6 +7,7 @@
    shell> python setup.py install
 
 *Example*:
+```python
     from digin_database import DbDriver, printTable
     conn_param = {"host": "localhost",
                   "user": "user",
@@ -15,3 +16,4 @@
     query = DbDriver(conn_param)
     result, desc, rows = query.execute(sql.get_queue)
     printTable(result)
+```
