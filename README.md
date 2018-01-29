@@ -1,12 +1,12 @@
-pymysql-wrapper
+# pymysql-wrapper
 
-Installation:
+*Installation*:
 - Download digin_database
 - unzip digin_database.zip, enter the unpacked directory and run the following commands:
    shell> python setup.py build
    shell> python setup.py install
 
-Example:
+*Example*:
     from digin_database import DbDriver, printTable
     conn_param = {"host": "localhost",
                   "user": "user",
